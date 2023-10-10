@@ -1,0 +1,442 @@
+/* ENDOW */
+#zio_body{
+    width: 70%;
+    margin-left: 15%;
+}
+#zio_body .zio_endow{
+    margin-top: 38px;
+}
+#zio_body .zio_endow h3{
+    font-size: 24px;
+    font-size: 20px;
+}
+#zio_body .zio_endow p{
+    font-size: 14px;
+    margin-top: 8px;
+    color: rgb(107, 107, 107);
+}
+.place_endow{
+    position: relative;
+    display: block;
+    width: 520px;
+    height: 150px;
+    margin-top: 32px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: -1px 2px 2px 2px #8e8e8ea3;
+    transition: all 0.3s ease;    
+        &:hover{
+            opacity: 0.9;
+        }
+}
+#zio_body .place_endow h4{
+    position: absolute;
+    display: inline;
+    font-size: 20px;
+    height: auto;
+    margin-top: 12px;
+    margin-left: 12px;
+}
+#zio_body .place_endow p{
+    position: absolute;
+    margin-top: 40px;
+    display: inline-block;
+    width: 300px;
+    height: auto;
+    margin-left: 12px;
+
+}
+#zio_body .place_endow img{
+    position: absolute;
+    right: 0;
+    max-width: 150px;
+    max-height: 150px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+#zio_body .place_endow button{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0 0 12px 12px;
+    width: 110px;
+    height: 35px;
+    border-radius: 8px;
+    color: #FFF;
+    font-weight: 600;
+    background-color: rgb(48, 89, 255);
+    transition: all 0.3s ease;    
+    &:hover{
+        color: #d1d1d1;
+            background-color: rgb(5, 26, 80);
+        }
+}
+/* Search Endow */
+
+#zio_home #zio_body .zio_endow #endow_main{
+    display: flex;
+    position: relative;
+}
+.search_endow{
+    position: absolute;
+    right: 0;
+    margin-top: 32px;
+    display: inline-block;
+    width: 520px;
+    height: 150px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: -1px 2px 2px 2px #8e8e8ea3;
+    background-image: url(https://r-xx.bstatic.com/xdata/images/xphoto/714x300/261387541.jpeg?k=80d1571cedd0a363b9d9b78207914af9b1490c6a859cacd8dc090c866d1bbc94&o=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 0.3s ease;
+        &:hover{
+            opacity: 0.9;
+        }
+}
+.search_endow h4{
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    margin: 12px 0 0 12px;
+}
+.search_endow .search_endow_content{
+    position: absolute;
+    margin-top: 42px;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 500;
+    margin-left: 12px;
+}
+.search_endow button{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0 0 12px 12px;
+    width: 165px;
+    height: 35px;
+    background-color: rgb(48, 89, 255);
+    color: #fff;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all 0.3s ease;    
+    &:hover{
+        color: #d1d1d1;
+            background-color: rgb(5, 26, 80);
+        }
+}
+/* DISCOVER */
+#zio_discover{
+    margin-top: 70px;
+    width: 70%;
+}
+.discover_content p{
+    font-size: 14px;
+    margin-top: 8px;
+    color: rgb(107, 107, 107);
+}
+.zio_travel{
+    margin-top: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+.zio_travel img{
+    border-radius: 8px;
+    transform: scaleY(1);
+    transition: all 0.3s ease;
+        &:hover{
+            opacity: 0.9;
+            transform: scale(1.01);
+        }
+}
+.travel_css_h4{
+    margin-top: 4px;
+    font-size: 16px;
+}
+.travel_css_p{
+    margin-top: 6px;
+    font-size: 13px;
+    color: #7a7a7a;
+}   
+#zio_popular{
+    margin-top: 42px;
+}
+/* POPULAR */
+.popular_place_1{
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+.popular_place_1 .tphcm{
+    width: 520px;
+    height: 260px;
+    background-image: url(https://nhaf.net.vn/wp-content/uploads/2022/03/thanh-pho-ho-chi-minh-scaled.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    display: flex;
+    transform: scaleY(1);
+    transition: all 0.3s ease;
+        &:hover{
+            opacity: 0.9;
+            transform: scale(1.01);
+        }
+    
+}
+.popular_place_1 .danang{
+    width: 520px;
+    height: 260px;
+    background-image: url(https://res.klook.com/image/upload/fl_lossy.progressive,w_800,c_fill,q_85/destination/ur2mrg23d91mex03l4mw.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    display: flex;
+    transform: scaleY(1);
+    transition: all 0.3s ease;
+        &:hover{
+            opacity: 0.9;
+            transform: scale(1.01);
+        }
+}
+.popular_place_2{
+    display: flex;
+    margin-top: 22px;
+    justify-content: space-between;
+}
+.popular_place_2 .hanoi{
+    background-image: url(https://vcdn1-dulich.vnecdn.net/2022/05/11/hoan-kiem-lake-7673-1613972680-1508-1652253984.jpg?w=0&h=0&q=100&dpr=1&fit=crop&s=2wB1cBTUcNKuk68nrG6LMQ);
+    transform: scaleY(1);
+    transition: all 0.3s ease;
+        &:hover{
+            opacity: 0.9;
+            transform: scale(1.01);
+        } 
+}
+.popular_place_2 .vungtau{
+    background-image: url(https://sodl.baria-vungtau.gov.vn/portal/widget/widget_133366762102229738.jpg);
+    transform: scaleY(1);
+    transition: all 0.3s ease;
+        &:hover{
+            opacity: 0.9;
+            transform: scale(1.01);
+        }
+}
+.popular_place_2 .dalat{
+    background-image: url(https://static.vinwonders.com/production/thanh-pho-da-lat-topbanner.jpg);
+    transform: scaleY(1);
+    transition: all 0.3s ease;
+        &:hover{
+            opacity: 0.9;
+            transform: scale(1.01);
+        }
+}
+
+/* REST */
+.list_rest{
+    display: flex;
+    margin-top: 38px;
+    justify-content: space-between;
+}
+.css_size_rest{
+    width: 250px;
+    height: 180px;
+    transform: scaleY(1);
+    transition: all 0.3s ease;
+        &:hover{
+            opacity: 0.9;
+            transform: scale(1.01);
+        }
+    
+}
+.list_rest h4{
+    margin: 4px 0 0 4px;
+}
+/* PLAN */
+.plan_navigation{
+    display: flex;
+}
+.plan_navigation i{
+    padding-right: 4px;
+}
+.baibien, .thiennhien, .thanhpho, .langman, .thugian{
+    margin: 24px 8px;
+    display: flex;
+    padding: 12px 14px 8px 14px;
+    font-weight: 400;
+    color: #4b4b4b;
+    font-size: 14px;
+    border-radius: 32px;
+    transition: all 0.3s ease;
+        &:hover{
+            background-color: #aaa8a81d;
+        }
+
+}
+.baibien{
+    background-color: rgba(188, 211, 234, 0.636);
+    border-radius: 32px;
+    border: 1.5px solid #5f89ff;
+}
+.place_plan{
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+.place_plan img{
+    border-radius: 8px;
+    width: 170px;
+    height: 135px;
+    transform: scaleY(1);
+    transition: all 0.3s ease;
+        &:hover{
+            opacity: 0.9;
+            transform: scale(1.01);
+        }
+}
+.haiphong, .halong, .catba, .thanhhoa, .samson, .quangninh {
+    cursor: pointer;
+}
+.place_plan h4{
+    font-size: 14px;
+}
+.place_plan p{
+    font-size: 13px;
+    color: #7a7a7a;
+}
+/* FAVORIES */
+.favories{
+    width: 100%;
+    height: auto;
+    margin-top: 36px;
+}
+.fav_content{
+    display: flex;
+    justify-content: space-between;
+}
+.fav_content a{
+    text-decoration: none;
+    color: #1c49ff;
+    font-size: 14px;
+    font-weight: 550;
+}
+.fav_list{
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+.fav_list img{
+    width: 250px;
+    height: 200px;
+}
+.fav_list h3{
+    margin-left: 12px;
+    font-size: 16px;
+    width: 200px;
+    margin-top: 12px;
+}
+.fav_list p{
+    margin-left: 12px;
+    font-size: 12px;
+    color: #7a7a7a;
+    margin-top: 6px;
+}
+.fav_list .fav_1{
+    transition: all 0.3s ease;
+    transform: scale(1);
+    width: 250px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: -2px 2px 2px #64646496;
+}
+.fav_list .fav_1 img{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.fav_fb1{
+    display: flex;
+    width: 250px;
+    margin-top: 16px !important;
+}
+.score_fb{
+    width: 26px;
+    margin-left: 12px;
+    padding: 4px;
+    background-color: #0530a7;
+    border-radius: 4px;
+    color: #fff !important;
+}
+.stt_fb{
+    padding: 4px;
+    border-right: 2px solid #686868;
+}
+.sl_fb{
+    padding: 4px;
+}
+.price_st{
+    display: flex;
+    margin-top: 44px;
+    margin-left: 46px;
+}
+.price_bg{
+    width: 100px !important;
+}
+.fav_1:hover{
+    transform: scale(1.01);
+    opacity: 0.9;
+    cursor: pointer;;
+}
+
+/* TOP */
+.zio_top{
+    margin-top: 36px;
+}
+.top_list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+.top_c{
+    margin-top: 36px;
+    width: 240px;
+    height: 400px;
+    box-shadow: -2px 2px 2px #7a7a7a;
+    border-radius: 8px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: all 0.3s ease;
+        &:hover{
+            opacity: 0.9;
+            transform: scale(1.01);
+        }
+}
+.top_c img{
+    width: 240px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.top_c h3{
+    width: 220px;
+    font-size: 16px;
+    padding: 12px;
+}
+.top_c p {
+    font-size: 12px;
+    color: #6b6b6b;
+    margin-left: 12px;
+}
+.top_fb{
+    display: flex;
+    margin-top: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
